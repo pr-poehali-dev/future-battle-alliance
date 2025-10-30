@@ -85,6 +85,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Team Photo Section */}
+      <section className="py-20 px-4 relative">
+        <div className="max-w-6xl mx-auto">
+          <div className="relative overflow-hidden rounded-2xl neon-border">
+            <div className="absolute inset-0 bg-gradient-to-b from-neon-cyan/20 via-transparent to-neon-blue/20 pointer-events-none z-10" />
+            <img 
+              src="https://cdn.poehali.dev/files/f97ee8c4-d087-47ee-a2f1-2fc818c500c1.jpg"
+              alt="Команда АльЯнс"
+              className="w-full h-auto brightness-75 contrast-125 saturate-75"
+              style={{
+                filter: 'brightness(0.6) contrast(1.2) saturate(0.8) hue-rotate(200deg)'
+              }}
+            />
+            <div className="absolute inset-0 bg-neon-cyan/10 mix-blend-overlay" />
+            <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-background/90 to-transparent">
+              <h3 className="text-3xl font-bold text-center neon-glow mb-2">Альянс в действии</h3>
+              <p className="text-center text-neon-blue">Две школы — одна команда</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Manifesto Section */}
       <section id="manifesto" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">

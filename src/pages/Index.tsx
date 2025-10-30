@@ -91,11 +91,11 @@ const Index = () => {
           <div className="relative overflow-hidden rounded-2xl neon-border">
             <div className="absolute inset-0 bg-gradient-to-b from-neon-cyan/20 via-transparent to-neon-blue/20 pointer-events-none z-10" />
             <img 
-              src="https://cdn.poehali.dev/files/a471c092-a9c7-49ec-b16a-0f52ab8eb543.jpg"
+              src="https://cdn.poehali.dev/files/1fd5aa33-b9cc-4477-b655-ff3bc4e9f745.jpg"
               alt="Команда АльЯнс"
               className="w-full h-auto"
               style={{
-                filter: 'brightness(0.5) contrast(1.1)'
+                filter: 'brightness(0.4) contrast(1.05)'
               }}
             />
             <div className="absolute inset-0 bg-neon-cyan/10 mix-blend-overlay" />
